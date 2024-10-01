@@ -1,0 +1,44 @@
+body {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  background-image: url("/assets/Background.jpeg");
+}
+
+.parent {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  margin: 50px;
+  padding: 50px;
+  width: 30%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  text-align: center;
+}
+
+.child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.childMedia {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  margin: 20px;
+  padding: 20px;
+}

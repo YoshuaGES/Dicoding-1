@@ -1,0 +1,152 @@
+body {
+  margin: 0px;
+  font-family: "Quicksand", sans-serif;
+  background-image: url("/assets/Background.jpeg");
+}
+
+header {
+  padding: 10px;
+}
+
+/* Pembatas dengan .cardContent */
+.cardHeader {
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Pembatas dengan Card */
+.iniHeader {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 50%;
+  transition: transform 0.5s;
+}
+
+.iniHeader:hover {
+  transform: scale(1.05);
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav img {
+  width: 150px;
+  border-radius: 20px;
+  transition: transform 0.5s;
+  cursor: pointer;
+}
+
+nav img:hover {
+  transform: scale(1.1);
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav li {
+  list-style-type: none;
+}
+
+nav a {
+  text-decoration: none;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: transform 0.5s;
+  color: black;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  transform: scale3d(1.2);
+  background: linear-gradient(to top right, #ffffff 0%, #66ccff 100%);
+}
+
+/* Pembatas dengan .cardHeader */
+.cardContent {
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainContent {
+  padding: 20px;
+  align-content: center;
+  justify-content: space-between;
+  display: flex;
+  gap: 40px;
+  width: 100%;
+}
+
+/* Pembatas dengan Header */
+.card {
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  line-height: 1.5;
+  transition: transform 0.5s;
+  width: 50%;
+  text-align: justify;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+aside {
+  padding: 10px;
+  margin: 10px;
+}
+
+.aside {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.asideContent {
+  text-align: center;
+  width: 20%;
+}
+
+.aside img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+figcaption {
+  font-size: medium;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+figcaption:hover {
+    color: #4e5a5e;
+}
+
+footer {
+  padding: 20px;
+  text-align: right;
+}
+
+.pFooter {
+  cursor: pointer;
+}
+
+footer p:hover {
+  color: rgb(0, 119, 255);
+}

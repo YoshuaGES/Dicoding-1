@@ -37,8 +37,23 @@ img {
   width: 100px;
 }
 
+.backHref {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
-  margin: 20px;
-  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  transition: transform 0.5s;
+  color: black;
+  border-radius: 5px;
+}
+
+a:hover {
+  background: linear-gradient(to top right, #ffffff 0%, #66ccff 100%);
+  transform: scale(1.1);
 }

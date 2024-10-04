@@ -47,7 +47,7 @@ nav img {
 }
 
 nav img:hover {
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 nav ul {
@@ -70,7 +70,7 @@ nav a {
 }
 
 nav a:hover {
-  transform: scale3d(1.2);
+  transform: scale(1.1);
   background: linear-gradient(to top right, #ffffff 0%, #66ccff 100%);
 }
 

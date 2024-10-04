@@ -70,7 +70,6 @@ nav a {
 }
 
 nav a:hover {
-  transform: scale(1.1);
   background: linear-gradient(to top right, #ffffff 0%, #66ccff 100%);
 }
 

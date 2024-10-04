@@ -54,6 +54,6 @@ a {
 }
 
 a:hover {
-  background: linear-gradient(to top right, #ffffff 0%, #66ccff 100%);
   transform: scale(1.1);
+  background: linear-gradient(to top right, #ffffff 0%, #66ccff 100%);
 }
